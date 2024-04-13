@@ -35,7 +35,7 @@ const SkillsCarousel = () => {
                 onClick={() => scroll('left')}
                 className='absolute left-0 z-10 hover:bg-secondary_bg rounded-full hover:blur-sm text-white text-2xl p-2'
             >
-                <p>&#8592;</p>
+                &#8592;
             </button>
             <div ref={carousel} className='overflow-hidden whitespace-nowrap scroll-smooth px-14'>
                 {skills.map((skill, index) => (
@@ -48,7 +48,7 @@ const SkillsCarousel = () => {
                 onClick={() => scroll('right')}
                 className='absolute right-0 z-1 hover:bg-secondary_bg rounded-full hover:blur-sm text-white text-2xl p-2'
             >
-                <p>&#8594;</p>
+                &#8594;
             </button>
         </div>
     );
