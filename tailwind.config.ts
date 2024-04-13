@@ -15,7 +15,11 @@ const config: Config = {
       },
       textColor: {
         primary_text:"#149414",
+        scondary_text:"#000000"
       },
+      backgroundColor: {
+        secondary_bg:"#149414"
+      }
     },
   },
   plugins: [],
